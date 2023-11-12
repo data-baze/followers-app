@@ -1,0 +1,69 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+
+# Ignore environment configuration files
+.env
+
+# Ignore database configuration files
+*.sqlite3
+*.db
+
+# Ignore Django migration files
+/migrations/
+
+# Ignore secret key
+*.secret_key
+
+# Ignore development and production settings
+*.development
+*.production
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore test database
+db.sqlite3
+
+# Ignore Docker
+.docker/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore test files
+.pytest_cache/
+pytest-report.xml
